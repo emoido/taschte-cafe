@@ -393,6 +393,7 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
 /* ============ Mobile hero cleanup (≤767px) ============ */
 @media (max-width: 767px) {
   .marquee { display: none; }
+  .hero-bg img { object-position: 50% 18%; }
   .hero-content { padding: 104px 0 64px; }
   .hero h1 { font-size: clamp(2.1rem, 7.5vw, 2.8rem); }
   .hero-sub { font-size: 0.98rem; line-height: 1.5; margin: 14px 0 22px; }
