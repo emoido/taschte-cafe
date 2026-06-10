@@ -195,11 +195,16 @@ document.querySelectorAll(".lang-btn").forEach((btn) => {
   if (lang !== "de") setLanguage(lang);
 })();
 
-// Sticky header
+// Sticky header + sticky call button (appears after scrolling past the hero)
 const header = document.querySelector(".site-header");
-addEventListener("scroll", () => {
+const hero = document.querySelector(".hero");
+const stickyCall = document.querySelector(".sticky-call");
+function onScroll() {
   header.classList.toggle("scrolled", scrollY > 40);
-}, { passive: true });
+  stickyCall.classList.toggle("visible", scrollY > hero.offsetHeight - 120);
+}
+addEventListener("scroll", onScroll, { passive: true });
+onScroll();
 
 // Mobile nav
 const navToggle = document.getElementById("navToggle");
