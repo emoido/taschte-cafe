@@ -28,7 +28,7 @@ Yayınlamak için klasörü Netlify, Vercel, GitHub Pages veya herhangi bir host
 
 1. ~~**Fotoğraflar:**~~ ✅ Tamamlandı — sitedeki tüm görseller `images/` klasöründeki gerçek kafe fotoğraflarıyla değiştirildi (optimize edildi; orijinaller `images/originals/` içinde).
 2. ~~**Fiyatlar:**~~ ✅ Gerçek menü fiyatlarıyla güncellendi (Haziran 2026). Fiyatı doğrulanmamış iki kart (Sucuk mit Rührei, Hausgemachte Kuchen) fiyatsız gösteriliyor — fiyat öğrenilince eklenebilir. Classic Frühstück (14,50 €) ve Veganes Frühstück (17,90 €) menüde var ama uygun fotoğraf olmadığı için sitede öne çıkarılmadı.
-3. ~~**Çalışma saatleri:**~~ ✅ Sahibi onayladı: Pazartesi–Pazar 07:00–17:00 olarak güncellendi.
+3. ~~**Çalışma saatleri:**~~ ✅ Sahibi onayladı: Pazartesi–Pazar 08:00–17:00 olarak güncellendi.
 4. ~~**Impressum & Datenschutz:**~~ ✅ Tamamlandı. Impressum sahibinin nihai metniyle (sorumlu: Selvi Kaptan); Datenschutz gerçek teknik duruma göre yazıldı (çerez/izleme yok, Google Maps + Google Fonts + Gmail). Fontlar artık yerel barındırılıyor (`fonts/` içinde woff2; Google sunucularına istek yok) — Datenschutz'taki Google Fonts bölümü buna göre kaldırıldı.
 5. **Alan adı:** `index.html` içindeki `canonical` ve JSON-LD `url` alanlarını gerçek alan adınızla değiştirin (şu an `taschte-cafe.de` varsayıldı).
 6. **Google Business Profile:** Siteyi yayınlayınca Google İşletme Profili'ne web sitesi olarak ekleyin — yerel aramada görünürlük için en etkili adım.
