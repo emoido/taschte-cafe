@@ -423,3 +423,77 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
   .hero-badges .badge { display: none; }
   .hero-badges .badge:last-child { display: inline-block; }
 }
+
+/* ============ Holiday Notice Modal ============ */
+.holiday-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(43, 33, 24, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.holiday-overlay[hidden] { display: none; }
+
+.holiday-modal {
+  background: var(--cream);
+  border-radius: var(--radius);
+  padding: clamp(2rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2.5rem);
+  max-width: 440px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(43, 33, 24, 0.22);
+  animation: holiday-in 0.4s cubic-bezier(.22,.68,0,1.15) both;
+  border-top: 4px solid var(--terra);
+}
+
+@keyframes holiday-in {
+  from { opacity: 0; transform: translateY(28px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+
+.holiday-icon {
+  font-size: 2.8rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.holiday-label {
+  margin-bottom: 0.4rem;
+}
+
+.holiday-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: var(--espresso);
+  margin-bottom: 0.6rem;
+}
+
+.holiday-dates {
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 3.5vw, 1.25rem);
+  color: var(--terra);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  background: var(--cream-2);
+  display: inline-block;
+  padding: 0.35rem 1.1rem;
+  border-radius: 999px;
+  margin-bottom: 1.1rem;
+}
+
+.holiday-msg {
+  font-size: 0.97rem;
+  color: var(--espresso-2);
+  line-height: 1.65;
+  margin-bottom: 1.75rem;
+}
+
+.holiday-close {
+  width: 100%;
+  justify-content: center;
+}

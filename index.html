@@ -13,12 +13,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Taschte Café & Frühstück | Türkisches Frühstück, Brunch & Kaffee in Werther (Westfalen)</title>
-  <meta name="description" content="Taschte Café &amp; Frühstück in Werther: Türkisches Frühstück, hausgemachte Kuchen und Bio-Kaffee. Täglich 8–17 Uhr. Engerstraße 41, 33824 Werther.">
+  <meta name="description" content="Taschte Café &amp; Frühstück in Werther: Türkisches Frühstück, hausgemachte Kuchen und Bio-Kaffee. Di–So 8–17 Uhr. Engerstraße 41, 33824 Werther.">
   <meta name="keywords" content="Café Werther, Frühstück Werther, Türkisches Frühstück, Brunch Bielefeld Umgebung, Taschte, Kahvaltı, Kuchen, Kaffee">
   <link rel="canonical" href="https://www.taschte-cafe.de/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Taschte – Café &amp; Frühstück in Werther">
-  <meta property="og:description" content="Türkisches Frühstück mit Herz: hausgemachte Kuchen &amp; Bio-Kaffee. Täglich 8–17 Uhr in Werther (Westfalen).">
+  <meta property="og:description" content="Türkisches Frühstück mit Herz: hausgemachte Kuchen &amp; Bio-Kaffee. Di–So 8–17 Uhr in Werther (Westfalen).">
   <meta property="og:image" content="https://www.taschte-cafe.de/images/deluxe-fruhstuck-1.jpeg">
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
@@ -52,7 +52,7 @@
     "geo": { "@type": "GeoCoordinates", "latitude": 52.0747, "longitude": 8.4103 },
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
       "opens": "08:00",
       "closes": "17:00"
     }],
@@ -62,6 +62,18 @@
   </script>
 </head>
 <body>
+
+  <!-- ===== Holiday Notice Modal ===== -->
+  <div class="holiday-overlay" id="holidayOverlay" role="dialog" aria-modal="true" aria-labelledby="holidayTitle" hidden>
+    <div class="holiday-modal">
+      <p class="holiday-icon" aria-hidden="true">☀️</p>
+      <p class="holiday-label eyebrow" data-i18n="holiday_label">Betriebsurlaub</p>
+      <h2 class="holiday-title" id="holidayTitle" data-i18n="holiday_title">Wir machen Urlaub</h2>
+      <p class="holiday-dates" data-i18n="holiday_dates">17. – 23. August 2026</p>
+      <p class="holiday-msg" data-i18n="holiday_msg">In dieser Zeit bleibt das Taschte Café geschlossen. Ab Dienstag, dem 25. August, freuen wir uns wieder auf euch!</p>
+      <button class="btn btn-primary holiday-close" id="holidayClose" data-i18n="holiday_close">Alles klar!</button>
+    </div>
+  </div>
 
   <!-- ===== Header ===== -->
   <header class="site-header" id="top">
@@ -99,7 +111,7 @@
       <div class="container hero-content reveal">
         <p class="eyebrow" data-i18n="hero_eyebrow">Café &amp; Frühstück · Werther (Westfalen)</p>
         <h1 data-i18n="hero_title">Frühstück mit Herz<br>und Heimat.</h1>
-        <p class="hero-sub" data-i18n="hero_sub">Türkisch inspiriertes Frühstück, hausgemachte Kuchen und Bio-Kaffee – frisch zubereitet und mit Liebe serviert, jeden Tag von 8 bis 17 Uhr.</p>
+        <p class="hero-sub" data-i18n="hero_sub">Türkisch inspiriertes Frühstück, hausgemachte Kuchen und Bio-Kaffee – frisch zubereitet und mit Liebe serviert, dienstags bis sonntags von 8 bis 17 Uhr.</p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="#menu" data-i18n="hero_btn_menu">Speisekarte entdecken</a>
           <a class="btn btn-ghost" href="tel:+491634925503"><span data-i18n="hero_btn_call">Anrufen &amp; reservieren</span></a>
@@ -107,7 +119,7 @@
         <div class="hero-badges">
           <span class="badge" data-i18n="badge_google">★ 5,0 <em>bei Google</em></span>
           <span class="badge"><em data-i18n="badge_rank">#2 von 32 Lokalen in Werther</em></span>
-          <span class="badge"><em data-i18n="badge_hours">Täglich 8–17 Uhr</em></span>
+          <span class="badge"><em data-i18n="badge_hours">Di–So · 8–17 Uhr</em></span>
         </div>
       </div>
       <div class="hero-fade" aria-hidden="true"></div>
@@ -303,7 +315,7 @@
             </div>
             <div>
               <dt data-i18n="visit_hours_t">Öffnungszeiten</dt>
-              <dd data-i18n="visit_hours_d">Montag – Sonntag<br>08:00 – 17:00 Uhr</dd>
+              <dd data-i18n="visit_hours_d">Dienstag – Sonntag<br>08:00 – 17:00 Uhr<br><small>Montag: Ruhetag</small></dd>
             </div>
             <div>
               <dt data-i18n="visit_res_t">Reservierung</dt>
