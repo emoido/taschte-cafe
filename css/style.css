@@ -298,7 +298,6 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
 .quotes { background: var(--espresso); color: var(--cream); }
 .quotes .eyebrow { color: var(--gold); }
 .quotes .section-head { margin-inline: auto; text-align: center; }
-.stars { color: var(--gold); letter-spacing: 4px; }
 .quotes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
 .quote-card {
   background: rgba(255, 253, 249, 0.06); border: 1px solid rgba(255, 253, 249, 0.14);
@@ -307,6 +306,7 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
 .quote-card p { font-family: var(--font-display); font-style: italic; font-size: 1.08rem; line-height: 1.55; }
 .quote-card footer { margin-top: 18px; font-size: 0.82rem; opacity: 0.65; text-transform: uppercase; letter-spacing: 0.12em; }
 .quotes-note { max-width: 640px; margin: 32px auto 0; text-align: center; font-size: 0.85rem; line-height: 1.6; opacity: 0.75; }
+.quotes-cta { text-align: center; margin-top: 24px; }
 
 /* ============ Private Feiern ============ */
 .events { background: var(--cream-2); }
