@@ -1,0 +1,4 @@
+# GitHub Pages: Projektdateien, die nicht auf der Website erscheinen sollen
+exclude:
+  - README.md
+  - CLAUDE.md
