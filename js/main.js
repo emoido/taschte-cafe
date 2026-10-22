@@ -3,7 +3,7 @@
 const translations = {
   de: {
     meta_title: "Taschte – Café & Frühstück in Werther (Westfalen) | Türkisches Frühstück, Kuchen & Kaffee",
-    meta_desc: "Taschte Café & Frühstück in Werther: Türkisches Frühstück, hausgemachte Kuchen und Bio-Kaffee. Di–So 8–17 Uhr. Engerstraße 41, 33824 Werther.",
+    meta_desc: "Taschte Café & Frühstück in Werther: Türkisches Frühstück, hausgemachte Kuchen und Kaffee von INDIE ROASTERS. Di–So 8–17 Uhr. Engerstraße 41, 33824 Werther.",
     logo_sub: "Café & Frühstück",
     nav_story: "Über uns",
     nav_menu: "Speisekarte",
@@ -13,7 +13,7 @@ const translations = {
     nav_cta: "Tisch reservieren",
     hero_eyebrow: "Café & Frühstück · Werther (Westfalen)",
     hero_title: "Frühstück mit Herz<br>und Heimat.",
-    hero_sub: "Türkisch inspiriertes Frühstück, hausgemachte Kuchen und Bio-Kaffee – frisch zubereitet und mit Liebe serviert, dienstags bis sonntags von 8 bis 17 Uhr.",
+    hero_sub: "Türkisch inspiriertes Frühstück, hausgemachte Kuchen und Kaffee von INDIE ROASTERS – frisch zubereitet und mit Liebe serviert, dienstags bis sonntags von 8 bis 17 Uhr.",
     hero_btn_menu: "Speisekarte entdecken",
     hero_btn_call: "Anrufen & reservieren",
     badge_google: "★ 5,0 <em>bei Google</em>",
@@ -21,10 +21,10 @@ const translations = {
     badge_hours: "Di–So · 8–17 Uhr",
     story_eyebrow: "Unsere Geschichte",
     story_title: "Frühstückskultur mit Herz in Werther",
-    story_p1: "Taschte steht für einen reich gedeckten Tisch, an dem Menschen zusammenkommen, genießen und sich willkommen fühlen. In unserem Café in Werther verbinden wir türkisch inspirierte Frühstückskultur mit westfälischer Gemütlichkeit: frisch zubereitete Spezialitäten, hausgemachte Kuchen, Bio-Kaffee und ein herzliches Ambiente.",
-    story_p2: "Als Familienbetrieb bereiten wir alles frisch und mit Liebe zu – vom Deluxe Frühstück bis zur täglich wechselnden Kuchenvitrine. Dazu servieren wir Bio-Kaffee von INDIE ROASTERS und türkischen Çay aus dem traditionellen Glas.",
+    story_p1: "Taschte steht für einen reich gedeckten Tisch, an dem Menschen zusammenkommen, genießen und sich willkommen fühlen. In unserem Café in Werther verbinden wir türkisch inspirierte Frühstückskultur mit westfälischer Gemütlichkeit: frisch zubereitete Spezialitäten, hausgemachte Kuchen, Kaffee-Spezialitäten und ein herzliches Ambiente.",
+    story_p2: "Als Familienbetrieb bereiten wir alles frisch und mit Liebe zu – vom Deluxe Frühstück bis zur täglich wechselnden Kuchenvitrine. Dazu servieren wir Kaffee von INDIE ROASTERS und türkischen Çay aus dem traditionellen Glas.",
     story_li1: "Frisch & hausgemacht – jeden Tag",
-    story_li2: "Bio-Kaffee von INDIE ROASTERS",
+    story_li2: "Kaffee von INDIE ROASTERS",
     story_li3: "Vegan und Vegetarische Optionen & Terrasse",
     story_li4: "Barrierefrei & familienfreundlich",
     menu_eyebrow: "Speisekarte",
@@ -47,8 +47,8 @@ const translations = {
     m6_desc: "Hausgemachtes Brot mit Avocadocreme, Spiegeleiern und frischen Kräutern – unser Namensgeber.",
     m7_name: "Hausgemachte Kuchen",
     m7_desc: "Täglich wechselnde Auswahl aus unserer Vitrine – vom Cheesecake bis zur Schokotorte.",
-    d1: "Bio-Kaffee-Spezialitäten <small>(Cappuccino, Latte Macchiato &amp; mehr)</small>",
-    d2: "Espresso <small>(INDIE ROASTERS Bio)</small>",
+    d1: "Kaffee-Spezialitäten <small>(Cappuccino, Latte Macchiato &amp; mehr)</small>",
+    d2: "Espresso <small>(INDIE ROASTERS)</small>",
     menu_note: "Dazu gibt es türkischen Çay im Glas, heiße Schokolade und frisch gepresste Säfte. Alle Gerichte auch zum Mitnehmen – die aktuelle Karte mit allen Preisen findet ihr bei uns im Café.",
     gal_eyebrow: "Galerie",
     gal_title: "Ein Blick auf den Tisch",
@@ -61,9 +61,10 @@ const translations = {
     q_src: "Aus den Google-Rezensionen",
     q_src2: "Aus den Google-Rezensionen",
     q_src3: "Aus den Google-Rezensionen",
+    quotes_note: "Die gezeigten Bewertungen und die Sternebewertung stammen aus unserem Google-Unternehmensprofil. Wir prüfen nicht, ob die Bewertungen von Personen stammen, die unser Café tatsächlich besucht haben.",
     ev_eyebrow: "Private Feiern",
     ev_title: "Besondere Anlässe feiern wir mit euch",
-    ev_text: "Geburtstag, standesamtliche Hochzeit, Taufe oder Trauerkaffee – gern richten wir euren Anlass bei uns im Café aus: mit reich gedeckter Frühstückstafel, hausgemachten Kuchen und Bio-Kaffee. Ruft uns einfach an, wir planen gemeinsam.",
+    ev_text: "Geburtstag, standesamtliche Hochzeit, Taufe oder Trauerkaffee – gern richten wir euren Anlass bei uns im Café aus: mit reich gedeckter Frühstückstafel, hausgemachten Kuchen und Kaffee-Spezialitäten. Ruft uns einfach an, wir planen gemeinsam.",
     ev_btn_call: "Anrufen & anfragen",
     ev_btn_ig: "Per Instagram anfragen",
     visit_eyebrow: "Besuch & Kontakt",
@@ -74,6 +75,8 @@ const translations = {
     visit_res_t: "Reservierung",
     visit_res_d: "Auch spontan – kommt einfach vorbei!",
     visit_route: "Route planen",
+    map_text: "Beim Laden der Karte werden Daten (u.&nbsp;a. Ihre IP-Adresse) an Google übertragen. Mehr dazu in unserer <a href=\"datenschutz.html#maps\">Datenschutzerklärung</a>.",
+    map_btn: "Karte laden",
     chip1: "🌿 Vegan und Vegetarische Optionen",
     chip2: "☀️ Terrasse",
     chip3: "♿ Barrierefrei",
@@ -93,7 +96,7 @@ const translations = {
   },
   en: {
     meta_title: "Taschte – Café & Breakfast in Werther, Germany | Turkish Breakfast, Cakes & Coffee",
-    meta_desc: "Taschte Café & Breakfast in Werther: Turkish breakfast, homemade cakes and organic coffee. Tue–Sun 8 am – 5 pm. Engerstraße 41, 33824 Werther.",
+    meta_desc: "Taschte Café & Breakfast in Werther: Turkish breakfast, homemade cakes and coffee by INDIE ROASTERS. Tue–Sun 8 am – 5 pm. Engerstraße 41, 33824 Werther.",
     logo_sub: "Café & Breakfast",
     nav_story: "Our Story",
     nav_menu: "Menu",
@@ -103,7 +106,7 @@ const translations = {
     nav_cta: "Book a table",
     hero_eyebrow: "Café & Breakfast · Werther, Germany",
     hero_title: "Breakfast made<br>with heart.",
-    hero_sub: "Turkish-inspired breakfast, homemade cakes and organic coffee – freshly prepared and served with love, Tuesday to Sunday from 8 am to 5 pm.",
+    hero_sub: "Turkish-inspired breakfast, homemade cakes and coffee by INDIE ROASTERS – freshly prepared and served with love, Tuesday to Sunday from 8 am to 5 pm.",
     hero_btn_menu: "Explore the menu",
     hero_btn_call: "Call & reserve",
     badge_google: "★ 5.0 <em>on Google</em>",
@@ -111,10 +114,10 @@ const translations = {
     badge_hours: "Tue–Sun · 8 am–5 pm",
     story_eyebrow: "Our Story",
     story_title: "Breakfast culture with heart in Werther",
-    story_p1: "Taschte stands for a richly laid table where people come together, enjoy good food and feel welcome. In our café in Werther, we bring together Turkish-inspired breakfast culture and Westphalian coziness: freshly prepared specialties, homemade cakes, organic coffee and a warm atmosphere.",
-    story_p2: "As a family business, we prepare everything fresh and with love – from our Deluxe Breakfast to the daily changing cake counter. We serve organic coffee by INDIE ROASTERS and Turkish çay in the traditional glass.",
+    story_p1: "Taschte stands for a richly laid table where people come together, enjoy good food and feel welcome. In our café in Werther, we bring together Turkish-inspired breakfast culture and Westphalian coziness: freshly prepared specialties, homemade cakes, coffee specialties and a warm atmosphere.",
+    story_p2: "As a family business, we prepare everything fresh and with love – from our Deluxe Breakfast to the daily changing cake counter. We serve coffee by INDIE ROASTERS and Turkish çay in the traditional glass.",
     story_li1: "Fresh & homemade – every day",
-    story_li2: "Organic coffee by INDIE ROASTERS",
+    story_li2: "Coffee by INDIE ROASTERS",
     story_li3: "Vegan and Vegetarian options & terrace",
     story_li4: "Wheelchair accessible & family-friendly",
     menu_eyebrow: "Menu",
@@ -137,8 +140,8 @@ const translations = {
     m6_desc: "Homemade bread with avocado cream, fried eggs and fresh herbs – our namesake dish.",
     m7_name: "Homemade Cakes",
     m7_desc: "A daily changing selection from our counter – from cheesecake to chocolate cake.",
-    d1: "Organic coffee specialties <small>(cappuccino, latte macchiato &amp; more)</small>",
-    d2: "Espresso <small>(INDIE ROASTERS organic)</small>",
+    d1: "Coffee specialties <small>(cappuccino, latte macchiato &amp; more)</small>",
+    d2: "Espresso <small>(INDIE ROASTERS)</small>",
     menu_note: "We also serve Turkish çay in a glass, hot chocolate and freshly squeezed juices. Everything is available to take away – you'll find the full menu with all prices at the café.",
     gal_eyebrow: "Gallery",
     gal_title: "A look at the table",
@@ -151,9 +154,10 @@ const translations = {
     q_src: "From Google reviews",
     q_src2: "From Google reviews",
     q_src3: "From Google reviews",
+    quotes_note: "The reviews and star rating shown come from our Google Business Profile. We do not check whether reviewers actually visited our café.",
     ev_eyebrow: "Private Events",
     ev_title: "Celebrate your special occasions with us",
-    ev_text: "Birthday, civil wedding, christening or memorial coffee – we'll gladly host your occasion at the café, with a richly laid breakfast table, homemade cakes and organic coffee. Just give us a call and we'll plan it together.",
+    ev_text: "Birthday, civil wedding, christening or memorial coffee – we'll gladly host your occasion at the café, with a richly laid breakfast table, homemade cakes and coffee specialties. Just give us a call and we'll plan it together.",
     ev_btn_call: "Call & enquire",
     ev_btn_ig: "Message us on Instagram",
     visit_eyebrow: "Visit & Contact",
@@ -164,6 +168,8 @@ const translations = {
     visit_res_t: "Reservations",
     visit_res_d: "Or just drop by spontaneously!",
     visit_route: "Get directions",
+    map_text: "Loading the map sends data (including your IP address) to Google. Details in our <a href=\"datenschutz.html#maps\">privacy policy</a>.",
+    map_btn: "Load map",
     chip1: "🌿 Vegan and Vegetarian options",
     chip2: "☀️ Terrace",
     chip3: "♿ Wheelchair accessible",
@@ -258,6 +264,20 @@ const observer = new IntersectionObserver(
   { threshold: 0.12 }
 );
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+// Google Maps two-click: no request goes to Google until the visitor asks for the map
+const mapLoad = document.getElementById("mapLoad");
+if (mapLoad) {
+  mapLoad.addEventListener("click", () => {
+    const placeholder = document.getElementById("mapConsent");
+    const iframe = document.createElement("iframe");
+    iframe.title = placeholder.dataset.title;
+    iframe.src = placeholder.dataset.src;
+    iframe.referrerPolicy = "no-referrer-when-downgrade";
+    iframe.allowFullscreen = true;
+    placeholder.replaceWith(iframe);
+  });
+}
 
 // Footer year
 document.getElementById("year").textContent = new Date().getFullYear();

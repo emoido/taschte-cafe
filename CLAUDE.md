@@ -6,5 +6,6 @@
 - German is the default language.
 - English is secondary.
 - Do not mention Turkish Coffee.
-- Focus on breakfast, bio coffee, cakes and family atmosphere.
+- Focus on breakfast, coffee (INDIE ROASTERS), cakes and family atmosphere.
+- Never use "Bio" or "organic" claims: the café has no Bio-AHVV certification.
 - Mobile-first design.
