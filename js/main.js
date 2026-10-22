@@ -183,9 +183,12 @@ const translations = {
   }
 };
 
+// Only own keys: "?lang=constructor" or "__proto__" must not resolve to Object internals
+const hasLang = (l) => Object.prototype.hasOwnProperty.call(translations, l);
+
 function setLanguage(lang) {
+  if (!hasLang(lang)) return;
   const dict = translations[lang];
-  if (!dict) return;
   document.documentElement.lang = lang;
   document.title = dict.meta_title;
   const metaDesc = document.querySelector('meta[name="description"]');
@@ -213,7 +216,7 @@ document.querySelectorAll(".lang-btn").forEach((btn) => {
   let saved = null;
   try { saved = localStorage.getItem("taschte-lang"); } catch (e) { /* ignore */ }
   const browser = (navigator.language || "de").slice(0, 2);
-  const lang = [param, saved, browser].find((l) => l && translations[l]) || "de";
+  const lang = [param, saved, browser].find((l) => l && hasLang(l)) || "de";
   if (lang !== "de") setLanguage(lang);
 })();
 
